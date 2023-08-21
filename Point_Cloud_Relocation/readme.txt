@@ -27,9 +27,9 @@ The collected data is stored into these files in easy-to-read data. But these da
 
 For further filtering processing, and coding into the form of easy programming. We need to preprocess the data.
 
-Run data_pre.py to finish the preprocessing. This script will automatically complete the filtering of the data and encode it into an npy file.
+Run data_pre.py to finish the preprocessing. This script will automatically complete the filtering of the data and encode it into an npz file.
 
-npy files are supported by the numpy package in python. Applying the characteristics of numpy can facilitate the construction of point cloud relocation algorithm in the later stage.
+npz files are supported by the numpy package in python. Applying the characteristics of numpy can facilitate the construction of point cloud relocation algorithm in the later stage.
 
 
 
@@ -78,8 +78,8 @@ Index Time(ms)  AI0(V)  AI1(V)  AI2(V)  AI3(V)  AI4(V)  AI5(V)  AI6(V)
 
 采集到的数据是以方便阅读的数据存储到这些文件中的。但是这些数据是原始的电压数据。
 为了进一步作滤波处理，并编码成易于编程的形式。我们需要对数据进行预处理。
-请运行data_pre.py以完成预处理。这个脚本会自动完整数据的滤波，并且会将其编码成npy文件。
-npy文件是由python的numpy包提供的支持。应用numpy的特性可以在后期方便完成点云重定位算法的构建。
+请运行data_pre.py以完成预处理。这个脚本会自动完整数据的滤波，并且会将其编码成npz文件。
+npz文件是由python的numpy包提供的支持。应用numpy的特性可以在后期方便完成点云重定位算法的构建。
 
 点云重定位算法被包含在key1-key7这些文件中。使用时，不需要直接调用这些文件。
 请使用Process.py脚本完成点云重定位算法的调用。key1-key10这些脚本提供了不同的重定位参数搜索策略。
